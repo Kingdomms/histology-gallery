@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Light theme variables */
+  --bg-color: #f8f9fa;
+  --header-bg: #ffffff;
+  --header-shadow: rgba(0, 0, 0, 0.1);
+  --title-color: #2c3e50;
+  --text-color: #666;
+  --thumbnail-border: #2c3e50;
+  --control-bg: rgba(0, 0, 0, 0.6);
+  --control-hover-bg: rgba(0, 0, 0, 0.8);
+  --control-color: white;
+  --description-bg: rgba(0, 0, 0, 0.7);
+  --description-color: white;
+  --body-bg: #f8f9fa; /* Added body background color */
+}
+
+.dark-theme {
+  /* Dark theme variables */
+  --bg-color: #121212;
+  --header-bg: #1e1e1e;
+  --header-shadow: rgba(0, 0, 0, 0.3);
+  --title-color: #e0e0e0;
+  --text-color: #b0b0b0;
+  --thumbnail-border: #4a90e2;
+  --control-bg: rgba(255, 255, 255, 0.2);
+  --control-hover-bg: rgba(255, 255, 255, 0.3);
+  --control-color: #e0e0e0;
+  --description-bg: rgba(0, 0, 0, 0.8);
+  --description-color: #e0e0e0;
+  --body-bg: #121212; /* Added body background color */
+}
+
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+body {
+  background-color: var(--body-bg); /* Apply background color to body */
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--header-bg);
+  box-shadow: 0 2px 4px var(--header-shadow);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.theme-toggle {
+  background-color: transparent;
+  border: 2px solid var(--title-color);
+  color: var(--title-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: var(--title-color);
+  color: var(--header-bg);
+}
+
+.header h1 {
+  color: var(--title-color);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Override react-image-gallery styles */
+.image-gallery-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-gallery-slide img {
+  object-fit: contain;
+  max-height: 70vh;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-gallery-thumbnail {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.image-gallery-thumbnail:hover,
+.image-gallery-thumbnail.active {
+  border-color: var(--thumbnail-border);
+}
+
+.image-gallery-description {
+  background: var(--description-bg);
+  color: var(--description-color);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Zoom controls styling */
+.zoom-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+}
+
+.zoom-controls button {
+  background-color: var(--control-bg);
+  color: var(--control-color);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.zoom-controls button:hover {
+  background-color: var(--control-hover-bg);
+}
+
+/* Make sure the image is contained within the transform component */
+/* Enhance centering for TransformComponent */
+.react-transform-component {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.react-transform-component img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Needed for margin auto to work */
+}
+
+/* Additional centering for image gallery */
+/* Ensure images are centered in all states */
+.image-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-gallery-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-gallery-slide-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-gallery-swipe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-gallery-slides {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-gallery-slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .gallery-container {
+    margin: 1rem auto;
+  }
+
+  .zoom-controls {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .zoom-controls button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+}
