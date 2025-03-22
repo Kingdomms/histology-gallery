@@ -139,21 +139,26 @@ body {
   z-index: 10;
   display: flex;
   gap: 8px;
+  background-color: var(--control-bg);
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .zoom-controls button {
   background-color: var(--control-bg);
   color: var(--control-color);
-  border: none;
+  border: 1px solid var(--control-color);
   border-radius: 50%;
   width: 36px;
   height: 36px;
   font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 2px;
 }
 
 .zoom-controls button:hover {

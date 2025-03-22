@@ -10,17 +10,142 @@ const App = () => {
     {
       original: "/histology-gallery/images/IMG_2479.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2479.jpeg",
-      description: "Histology Slide 1 - Placeholder",
+      description: "Histology Slide 1",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2480.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2480.jpeg",
+      description: "Histology Slide 2",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2481.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2481.jpeg",
+      description: "Histology Slide 3",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2482.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2482.jpeg",
+      description: "Histology Slide 4",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2483.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2483.jpeg",
+      description: "Histology Slide 5",
     },
     {
       original: "/histology-gallery/images/IMG_2485.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2485.jpeg",
-      description: "Histology Slide 2 - Placeholder",
+      description: "Histology Slide 6",
     },
     {
       original: "/histology-gallery/images/IMG_2487.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2487.jpeg",
-      description: "Histology Slide 3 - Placeholder",
+      description: "Histology Slide 7",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2488.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2488.jpeg",
+      description: "Histology Slide 8",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2494.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2494.jpeg",
+      description: "Histology Slide 9",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2495.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2495.jpeg",
+      description: "Histology Slide 10",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2496.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2496.jpeg",
+      description: "Histology Slide 11",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2497.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2497.jpeg",
+      description: "Histology Slide 12",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2498.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2498.jpeg",
+      description: "Histology Slide 13",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2499.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2499.jpeg",
+      description: "Histology Slide 14",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2500.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2500.jpeg",
+      description: "Histology Slide 15",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2501.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2501.jpeg",
+      description: "Histology Slide 16",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2502.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2502.jpeg",
+      description: "Histology Slide 17",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2505.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2505.jpeg",
+      description: "Histology Slide 18",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2506.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2506.jpeg",
+      description: "Histology Slide 19",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2509.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2509.jpeg",
+      description: "Histology Slide 20",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2510.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2510.jpeg",
+      description: "Histology Slide 21",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2511.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2511.jpeg",
+      description: "Histology Slide 22",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2512.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2512.jpeg",
+      description: "Histology Slide 23",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2513.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2513.jpeg",
+      description: "Histology Slide 24",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2514.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2514.jpeg",
+      description: "Histology Slide 25",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2517.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2517.jpeg",
+      description: "Histology Slide 26",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2519.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2519.jpeg",
+      description: "Histology Slide 27",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2524.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2524.jpeg",
+      description: "Histology Slide 28",
     },
   ]);
 
@@ -39,9 +164,15 @@ const App = () => {
         {({ zoomIn, zoomOut, resetTransform }) => (
           <>
             <div className="zoom-controls">
-              <button onClick={() => zoomIn()}>+</button>
-              <button onClick={() => zoomOut()}>-</button>
-              <button onClick={() => resetTransform()}>Reset</button>
+              <button onClick={() => zoomIn()} title="Zoom In">
+                +
+              </button>
+              <button onClick={() => zoomOut()} title="Zoom Out">
+                -
+              </button>
+              <button onClick={() => resetTransform()} title="Reset Zoom">
+                ↺
+              </button>
             </div>
             <TransformComponent>
               <img src={item.original} alt={item.description} />
