@@ -8,18 +8,18 @@ const App = () => {
   const { theme, toggleTheme } = useTheme();
   const [images] = useState([
     {
-      original: "/images/IMG_2479.jpeg",
-      thumbnail: "/images/IMG_2479.jpeg",
+      original: "public/images/IMG_2479.jpeg",
+      thumbnail: "public/images/IMG_2479.jpeg",
       description: "Histology Slide 1 - Placeholder",
     },
     {
-      original: "/images/IMG_2485.jpeg",
-      thumbnail: "/images/IMG_2485.jpeg",
+      original: "public/images/IMG_2485.jpeg",
+      thumbnail: "public/images/IMG_2485.jpeg",
       description: "Histology Slide 2 - Placeholder",
     },
     {
-      original: "/images/IMG_2487.jpeg",
-      thumbnail: "/images/IMG_2487.jpeg",
+      original: "public/images/IMG_2487.jpeg",
+      thumbnail: "public/images/IMG_2487.jpeg",
       description: "Histology Slide 3 - Placeholder",
     },
   ]);
