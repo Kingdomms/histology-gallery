@@ -227,25 +227,67 @@ body {
 
 @media (max-width: 768px) {
   .header h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .header p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .gallery-container {
     margin: 1rem auto;
+    padding: 0 0.5rem;
   }
 
   .zoom-controls {
-    bottom: 10px;
+    top: auto;
+    bottom: 70px;
     right: 10px;
   }
 
   .zoom-controls button {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     font-size: 16px;
+  }
+
+  .image-gallery-slide img {
+    max-height: 60vh;
+  }
+
+  .image-gallery-thumbnail {
+    width: 80px;
+    height: 60px;
+  }
+
+  .image-gallery-thumbnail-image {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .image-gallery-description {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    font-size: 0.8rem;
+  }
+
+  .zoom-controls button {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .image-gallery-thumbnail {
+    width: 60px;
+    height: 45px;
   }
 }
