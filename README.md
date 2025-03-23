@@ -27,17 +27,17 @@ Here are some examples of the high-quality histological slides available in this
 
 ### Epithelial Tissue
 
-![Epithelial Tissue](images/IMG_2479.jpeg)
+![Epithelial Tissue](public/images/IMG_2479.jpeg)
 _Simple squamous epithelium - Essential for understanding gas exchange surfaces_
 
 ### Muscle Tissue
 
-![Muscle Tissue](images/IMG_2495.jpeg)
+![Muscle Tissue](public/images/IMG_2495.jpeg)
 _Skeletal muscle - Showing characteristic striations and multinucleation_
 
 ### Nervous Tissue
 
-![Nervous Tissue](images/IMG_2497.jpeg)
+![Nervous Tissue](public/images/IMG_2497.jpeg)
 _Neural tissue - Demonstrating neurons and supporting cells_
 
 ## Technical Features
