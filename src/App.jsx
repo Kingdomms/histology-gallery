@@ -3,44 +3,25 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { useTheme } from "./ThemeContext";
+import Welcome from "./Welcome";
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
+  const [showWelcome, setShowWelcome] = useState(true);
   const [images] = useState([
     {
       original: "/histology-gallery/images/IMG_2479.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2479.jpeg",
-      title: "Histology Slide 1",
+      title: "Íleon",
       description:
-        "Tejido epitelial simple plano: Se observa una única capa de células aplanadas con núcleos ovales. Característico de capilares sanguíneos y alvéolos pulmonares.",
+        "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
     {
       original: "/histology-gallery/images/IMG_2480.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2480.jpeg",
-      title: "Histology Slide 2",
+      title: "Íleon",
       description:
-        "Tejido epitelial simple cúbico: Células con altura similar a su anchura. Presente en túbulos renales y folículos tiroideos.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2481.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2481.jpeg",
-      title: "Histology Slide 3",
-      description:
-        "Tejido epitelial simple cilíndrico: Células más altas que anchas, con núcleos basales. Común en el revestimiento intestinal.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2482.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2482.jpeg",
-      title: "Histology Slide 4",
-      description:
-        "Tejido epitelial estratificado plano: Múltiples capas de células que se aplanan hacia la superficie. Típico de la epidermis.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2483.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2483.jpeg",
-      title: "Histology Slide 5",
-      description:
-        "Tejido conectivo laxo: Fibras colágenas dispersas, fibroblastos y matriz extracelular abundante. Presente en la dermis papilar.",
+        "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
     {
       original: "/histology-gallery/images/IMG_2485.jpeg",
@@ -57,47 +38,13 @@ const App = () => {
         "Cartílago hialino: Matriz homogénea con condrocitos en lagunas. Presente en extremos articulares de huesos.",
     },
     {
-      original: "/histology-gallery/images/IMG_2488.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2488.jpeg",
-      title: "Histology Slide 8",
-      description:
-        "Tejido óseo compacto: Sistema de Havers con conductos centrales y laminillas concéntricas. Forma la diáfisis de huesos largos.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2494.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2494.jpeg",
-      title: "Histology Slide 9",
-      description:
-        "Tejido muscular liso: Células fusiformes con núcleo central. Presente en órganos viscerales.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2495.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2495.jpeg",
-      title: "Histology Slide 10",
-      description:
-        "Tejido muscular estriado esquelético: Fibras multinucleadas con estriaciones transversales. Responsable del movimiento voluntario.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2496.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2496.jpeg",
-      title: "Histology Slide 11",
-      description:
-        "Tejido muscular cardíaco: Fibras ramificadas con discos intercalares. Específico del músculo cardíaco.",
-    },
-    {
       original: "/histology-gallery/images/IMG_2497.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2497.jpeg",
       title: "Histology Slide 12",
       description:
         "Tejido nervioso: Neuronas con dendritas y axones, células gliales de soporte. Forma el sistema nervioso.",
     },
-    {
-      original: "/histology-gallery/images/IMG_2498.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2498.jpeg",
-      title: "Histology Slide 13",
-      description:
-        "Médula ósea: Tejido hematopoyético con precursores de células sanguíneas. Sitio de formación de células sanguíneas.",
-    },
+
     {
       original: "/histology-gallery/images/IMG_2499.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2499.jpeg",
@@ -105,20 +52,7 @@ const App = () => {
       description:
         "Ganglio linfático: Folículos linfoides y senos medulares. Importante en la respuesta inmune.",
     },
-    {
-      original: "/histology-gallery/images/IMG_2500.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2500.jpeg",
-      title: "Histology Slide 15",
-      description:
-        "Arteria elástica: Pared gruesa con láminas elásticas prominentes. Típica de grandes arterias como la aorta.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2501.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2501.jpeg",
-      title: "Histology Slide 16",
-      description:
-        "Vena: Pared más delgada que arterias, lumen irregular. Responsable del retorno venoso.",
-    },
+
     {
       original: "/histology-gallery/images/IMG_2502.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2502.jpeg",
@@ -133,13 +67,7 @@ const App = () => {
       description:
         "Hígado: Lobulillos hepáticos con vena central y hepatocitos. Centro de detoxificación y metabolismo.",
     },
-    {
-      original: "/histology-gallery/images/IMG_2506.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2506.jpeg",
-      title: "Histology Slide 19",
-      description:
-        "Riñón: Glomérulos y túbulos renales. Unidad de filtración y reabsorción.",
-    },
+
     {
       original: "/histology-gallery/images/IMG_2509.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2509.jpeg",
@@ -154,27 +82,7 @@ const App = () => {
       description:
         "Intestino delgado: Vellosidades y criptas de Lieberkühn. Especializado en absorción de nutrientes.",
     },
-    {
-      original: "/histology-gallery/images/IMG_2511.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2511.jpeg",
-      title: "Histology Slide 22",
-      description:
-        "Ovario: Folículos en diferentes estadios de desarrollo. Producción de óvulos y hormonas.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2512.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2512.jpeg",
-      title: "Histology Slide 23",
-      description:
-        "Testículo: Túbulos seminíferos con células espermatogénicas. Producción de espermatozoides.",
-    },
-    {
-      original: "/histology-gallery/images/IMG_2513.jpeg",
-      thumbnail: "/histology-gallery/images/IMG_2513.jpeg",
-      title: "Histology Slide 24",
-      description:
-        "Glándula tiroides: Folículos tiroideos con coloide. Síntesis y almacenamiento de hormonas tiroideas.",
-    },
+
     {
       original: "/histology-gallery/images/IMG_2514.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2514.jpeg",
@@ -200,6 +108,34 @@ const App = () => {
       original: "/histology-gallery/images/IMG_2524.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2524.jpeg",
       title: "Histology Slide 28",
+      description:
+        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2528 2.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2528 2.jpeg",
+      title: "Histology Slide 29",
+      description:
+        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2535 2.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2535 2.jpeg",
+      title: "Histology Slide 29",
+      description:
+        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2538 2.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2538 2.jpeg",
+      title: "Histology Slide 29",
+      description:
+        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2541 2.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2541 2.jpeg",
+      title: "Histology Slide 29",
       description:
         "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
     },
@@ -245,36 +181,46 @@ const App = () => {
     );
   };
 
+  const handleEnterGallery = () => {
+    setShowWelcome(false);
+  };
+
   return (
     <div className={`app ${theme}`}>
-      <header className="header">
-        <div className="header-content">
-          <div>
-            <h1>Atlas de Histología</h1>
-            <p>By Luis Hazael Flores Ramírez</p>
-          </div>
-          <button
-            className="theme-toggle"
-            onClick={toggleTheme}
-            aria-label={`Switch to ${
-              theme === "light" ? "dark" : "light"
-            } mode`}
-          >
-            {theme === "light" ? "🌙" : "☀️"}
-          </button>
-        </div>
-      </header>
-      <main className="gallery-container">
-        <ImageGallery
-          items={images}
-          showPlayButton={false}
-          showFullscreenButton={true}
-          showNav={true}
-          showThumbnails={true}
-          thumbnailPosition="bottom"
-          renderItem={renderItem}
-        />
-      </main>
+      {showWelcome ? (
+        <Welcome onEnterGallery={handleEnterGallery} />
+      ) : (
+        <>
+          <header className="header">
+            <div className="header-content">
+              <div>
+                <h1>Atlas de Histología</h1>
+                <p>By Luis Hazael Flores Ramírez</p>
+              </div>
+              <button
+                className="theme-toggle"
+                onClick={toggleTheme}
+                aria-label={`Switch to ${
+                  theme === "light" ? "dark" : "light"
+                } mode`}
+              >
+                {theme === "light" ? "🌙" : "☀️"}
+              </button>
+            </div>
+          </header>
+          <main className="gallery-container">
+            <ImageGallery
+              items={images}
+              showPlayButton={false}
+              showFullscreenButton={true}
+              showNav={true}
+              showThumbnails={true}
+              thumbnailPosition="bottom"
+              renderItem={renderItem}
+            />
+          </main>
+        </>
+      )}
       <style>
         {`
           .slide-container {
@@ -283,25 +229,49 @@ const App = () => {
             align-items: center;
             width: 100%;
             height: 100%;
+            position: relative;
+            padding-top: 10px; /* Add padding to create space for zoom controls */
           }
           .slide-description {
-            padding: 1rem;
-            margin-top: 1rem;
-            width: 100%;
+            padding: 0.75rem;
+            margin-top: 0.75rem;
+            width: 90%;
             text-align: center;
-            background-color: var(--background-color);
+            background-color: var(--description-bg);
             border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 5; /* Lower than zoom controls */
           }
           .slide-description h3 {
             margin: 0 0 0.5rem 0;
-            color: var(--text-color);
+            color: var(--description-color);
             font-size: 1.2rem;
           }
           .slide-description p {
             margin: 0;
-            color: var(--text-color);
+            color: var(--description-color);
             font-size: 1rem;
             line-height: 1.5;
+            text-align: center;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
+          }
+          @media (max-width: 768px) {
+            .slide-description {
+              padding: 0.5rem;
+              margin-top: 0.5rem;
+            }
+            .slide-description h3 {
+              font-size: 1.1rem;
+            }
+            .slide-description p {
+              font-size: 0.9rem;
+              line-height: 1.4;
+            }
           }
         `}
       </style>

@@ -176,6 +176,7 @@ body {
   background-color: var(--control-bg);
   padding: 8px;
   border-radius: 5px;
+  margin-bottom: 10px; /* Add margin to create space between controls and content */
 }
 
 .zoom-controls button {
@@ -291,12 +292,16 @@ body {
   }
 
   .zoom-controls {
-    top: auto;
-    bottom: 80px;
+    top: 10px;
     right: 10px;
-    padding: 10px;
-    border-radius: 25px;
+    padding: 8px;
+    border-radius: 20px;
     background-color: var(--control-bg);
+  }
+
+  .slide-description {
+    margin-top: 15px !important;
+    margin-right: 0 !important;
   }
 
   .zoom-controls button {
