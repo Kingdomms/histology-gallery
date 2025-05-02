@@ -12,132 +12,375 @@ const App = () => {
     {
       original: "/histology-gallery/images/IMG_2479.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2479.jpeg",
-      title: "Íleon",
+      title: "Duodeno",
       description:
         "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
     {
       original: "/histology-gallery/images/IMG_2480.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2480.jpeg",
-      title: "Íleon",
+      title: "Duodeno",
       description:
         "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
     {
       original: "/histology-gallery/images/IMG_2485.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2485.jpeg",
-      title: "Histology Slide 6",
+      title: "Glandulas Gástricas",
       description:
-        "Tejido conectivo denso regular: Fibras colágenas paralelas y organizadas. Característico de tendones y ligamentos.",
+        "Epitelio cúbico simple. Criptas de Lieberkühn y tejido linfoide en la lámina propia y submucosa.",
     },
     {
       original: "/histology-gallery/images/IMG_2487.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2487.jpeg",
-      title: "Histology Slide 7",
+      title: "Lengua",
       description:
-        "Cartílago hialino: Matriz homogénea con condrocitos en lagunas. Presente en extremos articulares de huesos.",
+        "Epitelio plano estratificado. Tejido muscular estriado. Ausencia de criptas de Lieberkühn.",
     },
     {
       original: "/histology-gallery/images/IMG_2497.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2497.jpeg",
-      title: "Histology Slide 12",
+      title: "Estómago (Glándulas Pilóricas)",
       description:
-        "Tejido nervioso: Neuronas con dendritas y axones, células gliales de soporte. Forma el sistema nervioso.",
+        "Glándulas pilóricas con células mucosas predominantes. Secreción de mucosidad pilórica del estómago.",
     },
 
     {
       original: "/histology-gallery/images/IMG_2499.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2499.jpeg",
-      title: "Histology Slide 14",
-      description:
-        "Ganglio linfático: Folículos linfoides y senos medulares. Importante en la respuesta inmune.",
+      title: "14",
+      description: "",
     },
 
     {
       original: "/histology-gallery/images/IMG_2502.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2502.jpeg",
-      title: "Histology Slide 17",
+      title: "Esófago",
       description:
-        "Pulmón: Alvéolos y capilares formando la barrera aire-sangre. Sitio de intercambio gaseoso.",
+        "Epitelio plano estratificado. Ausencia de glándulas gástricas. Pliegues de la mucosa. Submucosa con glándulas esofágicas presentes.",
     },
     {
       original: "/histology-gallery/images/IMG_2505.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2505.jpeg",
-      title: "Histology Slide 18",
+      title: "Esófago",
       description:
-        "Hígado: Lobulillos hepáticos con vena central y hepatocitos. Centro de detoxificación y metabolismo.",
+        "Epitelio plano estratificado. Ausencia de glándulas gástricas. Pliegues de la mucosa. Submucosa con glándulas esofágicas presentes.",
     },
 
     {
       original: "/histology-gallery/images/IMG_2509.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2509.jpeg",
-      title: "Histology Slide 20",
+      title: "Esófago",
       description:
-        "Páncreas: Acinos serosos y islotes de Langerhans. Glándula mixta endocrina y exocrina.",
+        "Epitelio plano estratificado. Muscosa, submucosa, muscular de la mucosa y adventicia.",
     },
     {
       original: "/histology-gallery/images/IMG_2510.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2510.jpeg",
-      title: "Histology Slide 21",
-      description:
-        "Intestino delgado: Vellosidades y criptas de Lieberkühn. Especializado en absorción de nutrientes.",
+      title: "Esófago",
+      description: "Epitelio plano estratificado.",
     },
 
     {
       original: "/histology-gallery/images/IMG_2514.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2514.jpeg",
-      title: "Histology Slide 25",
+      title: "Cerebelo y Meninges",
       description:
-        "Cerebro: Sustancia gris y blanca, neuronas y células gliales. Centro de control del sistema nervioso.",
+        "H&E. Mostrando corteza cerebelosa con capas molecular, Purkinje y granulosa. En contacto con meninges y se observa vascularización",
     },
     {
       original: "/histology-gallery/images/IMG_2517.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2517.jpeg",
-      title: "Histology Slide 26",
+      title: "Cerebelo",
       description:
-        "Médula espinal: Sustancia gris en forma de H con neuronas motoras. Centro de reflejos y conducción nerviosa.",
+        "H&E. Capa molecular, de Purkinje y granulosa. Se pueden observar células de Purkinje.",
     },
     {
       original: "/histology-gallery/images/IMG_2519.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2519.jpeg",
-      title: "Histology Slide 27",
-      description:
-        "Piel: Epidermis estratificada y dermis con anexos cutáneos. Barrera protectora del organismo.",
+      title: "Riñon (Corteza Renal)",
+      description: "Aún sin poder apreciar bien a los glomérulos renales.",
     },
     {
       original: "/histology-gallery/images/IMG_2524.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2524.jpeg",
-      title: "Histology Slide 28",
-      description:
-        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+      title: "Riñon (Corteza Renal)",
+      description: "Es posible ya ir apreciando los glomérulos renales.",
     },
     {
       original: "/histology-gallery/images/IMG_2528 2.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2528 2.jpeg",
-      title: "Histology Slide 29",
+      title: "Riñon (Glomérulo Renal)",
       description:
-        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+        "Epitelio plano simple. Cápsula de Bowman. Podocitos. Células mesangiales. Mácula densa y polo vascular.",
     },
     {
       original: "/histology-gallery/images/IMG_2535 2.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2535 2.jpeg",
-      title: "Histology Slide 29",
-      description:
-        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+      title: "Tiroides",
+      description: "Epitelio cúbico simple.",
     },
     {
       original: "/histology-gallery/images/IMG_2538 2.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2538 2.jpeg",
-      title: "Histology Slide 29",
+      title: "Tiroides",
       description:
-        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+        "Presencia de células folículares, parafoliculares y coloide. Las células foliculares secretan, T3 y T4 y las parafoliculares calcitonina.",
     },
     {
       original: "/histology-gallery/images/IMG_2541 2.jpeg",
       thumbnail: "/histology-gallery/images/IMG_2541 2.jpeg",
-      title: "Histology Slide 29",
+      title: "Unión Gastro-Esofágica",
       description:
-        "Placenta: Vellosidades coriónicas y espacio intervelloso. Órgano de intercambio materno-fetal.",
+        "Epitelio plano estratificado (izq) y epitelio cilíndrico simple (der) en la porción del cardial del estómago. Se observa también la lámina propia y la muscular de la mucosa subyacente",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8285.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8285.jpeg",
+      title: "Pulmón",
+      description: "Tinción Tricrómico de Masson. Patológico.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8287.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8287.jpeg",
+      title: "Pulmón",
+      description:
+        "Epitelio plano simple. Presencia de neumocitos de tipo I y II.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8288.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8288.jpeg",
+      title: "Esófago",
+      description: "Tinción H&E. Muscosa, submucosa y muscular de la mucosa.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8289.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8289.jpeg",
+      title: "Esófago",
+      description:
+        "Epitelio plano estratificado. Muscosa, submucosa, muscular de la mucosa y adventicia.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8290.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8290.jpeg",
+      title: "Esófago",
+      description:
+        "Epitelio plano estratificado. Muscosa, submucosa, muscular de la mucosa y adventicia.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8292.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8292.jpeg",
+      title: "Piel Delgada",
+      description:
+        "Presencia de folículo piloso, glándulas suríparas y ecrinas",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8294.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8294.jpeg",
+      title: "Piel Delgada",
+      description:
+        "Epidermis, dermis e hipodermis. Presencia de folículo piloso, glándulas suríparas y ecrinas",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8296.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8296.jpeg",
+      title: "Piel Delgada",
+      description:
+        "Epidermis y dermis. Epitelio plan estratificado queratinizado.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8297.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8297.jpeg",
+      title: "Piel Delgada",
+      description:
+        "Epidermis y dermis. Epitelio plan estratificado queratinizado.",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8298.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8298.jpeg",
+      title: "Piel Delgada",
+      description:
+        "Presencia de folículo piloso, glándulas suríparas y adipocitos",
+    },
+    {
+      original: "/histology-gallery/images/IMG_8300.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_8300.jpeg",
+      title: "?",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2587.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2587.jpeg",
+      title: "1",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2589.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2589.jpeg",
+      title: "2",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2601.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2601.jpeg",
+      title: "3",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2603.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2603.jpeg",
+      title: "4",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2624.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2624.jpeg",
+      title: "5",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2625.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2625.jpeg",
+      title: "6",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2626.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2626.jpeg",
+      title: "7",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2649.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2649.jpeg",
+      title: "8",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2668.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2668.jpeg",
+      title: "9",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2673.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2673.jpeg",
+      title: "10",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2675.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2675.jpeg",
+      title: "11",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2678.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2678.jpeg",
+      title: "12",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2682.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2682.jpeg",
+      title: "13",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2696.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2696.jpeg",
+      title: "14",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2701.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2701.jpeg",
+      title: "15",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2709.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2709.jpeg",
+      title: "16",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2718.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2718.jpeg",
+      title: "17",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2731.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2731.jpeg",
+      title: "18",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2732.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2732.jpeg",
+      title: "19",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2733.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2733.jpeg",
+      title: "20",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2734.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2734.jpeg",
+      title: "21",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2738.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2738.jpeg",
+      title: "22",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2740.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2740.jpeg",
+      title: "23",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2742.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2742.jpeg",
+      title: "24",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2746.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2746.jpeg",
+      title: "25",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2748.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2748.jpeg",
+      title: "26",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2750.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2750.jpeg",
+      title: "27",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2751.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2751.jpeg",
+      title: "28",
+      description: "",
+    },
+    {
+      original: "/histology-gallery/images/IMG_2753.jpeg",
+      thumbnail: "/histology-gallery/images/IMG_2753.jpeg",
+      title: "29",
+      description: "",
     },
   ]);
 
