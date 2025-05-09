@@ -24,13 +24,6 @@ const App = () => {
         "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
     {
-      original: "./images/IMG_2485.jpeg",
-      thumbnail: "./images/thumbnails/IMG_2485.jpeg",
-      title: "Glandulas Gástricas",
-      description:
-        "Epitelio cúbico simple. Criptas de Lieberkühn y tejido linfoide en la lámina propia y submucosa.",
-    },
-    {
       original: "./images/IMG_2487.jpeg",
       thumbnail: "./images/thumbnails/IMG_2487.jpeg",
       title: "Lengua",
@@ -48,8 +41,9 @@ const App = () => {
     {
       original: "./images/IMG_2499.jpeg",
       thumbnail: "./images/thumbnails/IMG_2499.jpeg",
-      title: "14",
-      description: "",
+      title: "Duodeno",
+      description:
+        "Tinción H&E. Presencia de vellosidades intestinales elongadas. Criptas de Lieberkühn y posible presencia de tejido linfoide (Placas de Peyer) en la lámina propia y submucosa",
     },
 
     {
@@ -564,121 +558,137 @@ const App = () => {
       original: "./images/IMG_3003.jpeg",
       thumbnail: "./images/thumbnails/IMG_3003.jpeg",
       title: "Glándula Suprarenal",
-      description: "",
+      description:
+        "Cápsula, corteza: glomerular (mineralocorticoides), fascicular (glucocorticoides) y reticular (andrógenos). Médula como capa más interna.",
     },
     {
       original: "./images/IMG_3006.jpeg",
       thumbnail: "./images/thumbnails/IMG_3006.jpeg",
-      title: "63",
-      description: "",
+      title: "Glándula Suprarenal",
+      description:
+        "Cápsula, corteza: glomerular (mineralocorticoides), fascicular (glucocorticoides) y reticular (andrógenos). Médula como capa más interna.",
     },
     {
       original: "./images/IMG_3008.jpeg",
       thumbnail: "./images/thumbnails/IMG_3008.jpeg",
-      title: "64",
-      description: "",
+      title: "Estómago",
+      description:
+        "Mucosa, submucosa, muscular de la mucosa, muscular propia y serosa.",
     },
     {
       original: "./images/IMG_3010.jpeg",
       thumbnail: "./images/thumbnails/IMG_3010.jpeg",
-      title: "65",
-      description: "",
+      title: "Estómago",
+      description: "Mucosa y submucosa.",
     },
     {
       original: "./images/IMG_3012.jpeg",
       thumbnail: "./images/thumbnails/IMG_3012.jpeg",
-      title: "66",
-      description: "",
+      title: "Glándula Salival (Submandibular)",
+      description: "Glándula salival mayor mixta, de predominio SEROSO.",
     },
     {
       original: "./images/IMG_3092.jpeg",
       thumbnail: "./images/thumbnails/IMG_3092.jpeg",
-      title: "67",
-      description: "",
+      title: "Íleon",
+      description:
+        "Su mucosa se reviste de un epitelio cilíndrico simple con microvellosidades y células caliciformes. Presencia de placas de Peyer.",
     },
     {
       original: "./images/IMG_3094.jpeg",
       thumbnail: "./images/thumbnails/IMG_3094.jpeg",
-      title: "68",
-      description: "",
+      title: "Íleon",
+      description:
+        "Su mucosa se reviste de un epitelio cilíndrico simple con microvellosidades y células caliciformes. Presencia de placas de Peyer.",
     },
     {
       original: "./images/IMG_3195.jpeg",
       thumbnail: "./images/thumbnails/IMG_3195.jpeg",
-      title: "69",
-      description: "",
+      title: "Páncreas",
+      description:
+        "Contiene acinos serosos pancreáticos (exocrinos y de secreción de ZIMOGENOS) e Islotes de Langerhans (endocrinos y de celulas alfa (glucagón), beta (insulina) y delta (somatostatina). Además de secretar PP (Polipéptido Pancreático)).",
     },
     {
       original: "./images/IMG_3196.jpeg",
       thumbnail: "./images/thumbnails/IMG_3196.jpeg",
-      title: "70",
-      description: "",
+      title: "Páncreas",
+      description:
+        "Contiene acinos serosos pancreáticos (exocrinos y de secreción de ZIMOGENOS) e Islotes de Langerhans (endocrinos y de celulas alfa (glucagón), beta (insulina) y delta (somatostatina). Además de secretar PP (Polipéptido Pancreático)).",
     },
     {
       original: "./images/IMG_3199.jpeg",
       thumbnail: "./images/thumbnails/IMG_3199.jpeg",
-      title: "71",
+      title: "Músculo Cardíaco Estriado",
       description: "",
     },
     {
       original: "./images/IMG_3202.jpeg",
       thumbnail: "./images/thumbnails/IMG_3202.jpeg",
-      title: "72",
-      description: "",
+      title: "Bazo",
+      description:
+        "Bazo penicilado en el centro. (Estructura vascular alrededor de un centro germinal.)",
     },
     {
       original: "./images/IMG_3205.jpeg",
       thumbnail: "./images/thumbnails/IMG_3205.jpeg",
-      title: "73",
-      description: "",
+      title: "Uréter",
+      description:
+        "Tinción: Inmunohistoquímica. Epitelio transicional. Cuenta con tres capas musculares lisas. Además, su luz es en forma de estrella.",
     },
     {
       original: "./images/IMG_3779.jpeg",
       thumbnail: "./images/thumbnails/IMG_3779.jpeg",
-      title: "74",
-      description: "",
+      title: "Piel Delgada",
+      description:
+        "Tinción: Tricrómico de Masson. Epitelio plano estratificado queratinizado. Presencia de las tres capas de la piel: epidermis, dermis e hipodermis. Se puede apreciar una glándula sebácea.",
     },
     {
       original: "./images/IMG_3780.jpeg",
       thumbnail: "./images/thumbnails/IMG_3780.jpeg",
-      title: "75",
-      description: "",
+      title: "Piel Delgada",
+      description:
+        "Tinción: Tricrómico de Masson. Epitelio plano estratificado queratinizado. Presencia de las tres capas de la piel: epidermis, dermis e hipodermis. Se puede apreciar una glándulas sebáceas y apocrinas. También hay folículos pilosos.",
     },
     {
       original: "./images/IMG_3781.jpeg",
       thumbnail: "./images/thumbnails/IMG_3781.jpeg",
-      title: "76",
-      description: "",
+      title: "Piel Delgada",
+      description:
+        "Tinción: Tricrómico de Masson. Epitelio plano estratificado queratinizado. Presencia de las tres capas de la piel: epidermis, dermis e hipodermis. Folículo piloso.",
     },
     {
       original: "./images/IMG_3782.jpeg",
       thumbnail: "./images/thumbnails/IMG_3782.jpeg",
-      title: "77",
-      description: "",
+      title: "Piel Delgada",
+      description:
+        "Tinción: Tricrómico de Masson. Epitelio plano estratificado queratinizado. Presencia de las tres capas de la piel: epidermis, dermis e hipodermis. Se puede apreciar una glándulas sebáceas y apocrinas. También hay folículos pilosos.",
     },
     {
       original: "./images/IMG_3793.jpeg",
       thumbnail: "./images/thumbnails/IMG_3793.jpeg",
-      title: "78",
-      description: "",
+      title: "Piel Gruesa",
+      description:
+        "Con gran capa de estrato corneo. SIN glándulas ni foliculos pilosos. Predominante en palmas de las manos y pies.",
     },
     {
       original: "./images/IMG_3812.jpeg",
       thumbnail: "./images/thumbnails/IMG_3812.jpeg",
-      title: "79",
-      description: "",
+      title: "Corazón",
+      description: "Músculo cardíaco estriado.",
     },
     {
       original: "./images/IMG_3817.jpeg",
       thumbnail: "./images/thumbnails/IMG_3817.jpeg",
-      title: "80",
-      description: "",
+      title: "Tráquea",
+      description:
+        "Presencia de cartílago hialino. Forma de C. Glándulas. Epitelio cilindrico pseudoestratificado ciliado con células caliciformes.",
     },
     {
       original: "./images/IMG_3818.jpeg",
       thumbnail: "./images/thumbnails/IMG_3818.jpeg",
-      title: "81",
-      description: "",
+      title: "Tráquea",
+      description:
+        "Presencia de cartílago hialino. Forma de C. Glándulas. Epitelio cilindrico pseudoestratificado ciliado con células caliciformes.",
     },
     {
       original: "./images/IMG_3820.jpeg",
@@ -689,62 +699,61 @@ const App = () => {
     {
       original: "./images/IMG_3821.jpeg",
       thumbnail: "./images/thumbnails/IMG_3821.jpeg",
-      title: "83",
-      description: "",
+      title: "Tráquea",
+      description:
+        "Presencia de cartílago hialino. Forma de C. Glándulas. Epitelio cilindrico pseudoestratificado ciliado con células caliciformes.",
     },
     {
       original: "./images/IMG_3863.jpeg",
       thumbnail: "./images/thumbnails/IMG_3863.jpeg",
-      title: "84",
-      description: "",
+      title: "Páncreas",
+      description:
+        "Contiene acinos serosos pancreáticos (exocrinos y de secreción de ZIMOGENOS) e Islotes de Langerhans (endocrinos y de celulas alfa (glucagón), beta (insulina) y delta (somatostatina). Además de secretar PP (Polipéptido Pancreático)).",
     },
     {
       original: "./images/IMG_3864.jpeg",
       thumbnail: "./images/thumbnails/IMG_3864.jpeg",
-      title: "85",
-      description: "",
+      title: "Páncreas",
+      description:
+        "Contiene acinos serosos pancreáticos (exocrinos y de secreción de ZIMOGENOS) e Islotes de Langerhans (endocrinos y de celulas alfa (glucagón), beta (insulina) y delta (somatostatina). Además de secretar PP (Polipéptido Pancreático)).",
     },
     {
       original: "./images/IMG_3878.jpeg",
       thumbnail: "./images/thumbnails/IMG_3878.jpeg",
-      title: "86",
-      description: "",
+      title: "Médula Espinal",
+      description: "Asta dorsal. Sustancia blanca.",
     },
     {
       original: "./images/IMG_3881.jpeg",
       thumbnail: "./images/thumbnails/IMG_3881.jpeg",
-      title: "87",
-      description: "",
-    },
-    {
-      original: "./images/IMG_3883.jpeg",
-      thumbnail: "./images/thumbnails/IMG_3883.jpeg",
-      title: "88",
-      description: "",
+      title: "Médula Espinal",
+      description: "Canal central o ependimario. Sustancia gris.",
     },
     {
       original: "./images/IMG_3886.jpeg",
       thumbnail: "./images/thumbnails/IMG_3886.jpeg",
-      title: "89",
-      description: "",
+      title: "Médula Espinal",
+      description:
+        "Surco mediano dorsal. Sustancia blanca. Fasciculo grácil y cuneiforme.",
     },
     {
       original: "./images/IMG_3890.jpeg",
       thumbnail: "./images/thumbnails/IMG_3890.jpeg",
-      title: "90",
-      description: "",
+      title: "Encéfalo",
+      description:
+        "Sustancia gris y blanca. Presencia de cuerpos neuronales y terminaciones axónicas.",
     },
     {
       original: "./images/IMG_3948.jpeg",
       thumbnail: "./images/thumbnails/IMG_3948.jpeg",
-      title: "91",
-      description: "",
+      title: "Citología Cervical",
+      description: "Toma de muestra.",
     },
     {
       original: "./images/IMG_4006.jpeg",
       thumbnail: "./images/thumbnails/IMG_4006.jpeg",
-      title: "92",
-      description: "",
+      title: "Vejiga",
+      description: "Capas musculares. Urotelio.",
     },
   ]);
 
