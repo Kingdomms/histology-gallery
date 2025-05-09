@@ -8,6 +8,15 @@ import Welcome from "./Welcome";
 const App = () => {
   const { theme, toggleTheme } = useTheme();
   const [showWelcome, setShowWelcome] = useState(true);
+  
+  // Función para obtener la ruta correcta de las imágenes
+  const getImagePath = (path) => {
+    // Elimina el "./" inicial si existe
+    const cleanPath = path.startsWith('./') ? path.substring(2) : path;
+    // Usa la URL base de Vite
+    return `${import.meta.env.BASE_URL}${cleanPath}`;
+  };
+  
   const [images] = useState([
     {
       original: "./images/IMG_2479.jpeg",
