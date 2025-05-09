@@ -204,24 +204,6 @@ const App = () => {
         "Presencia de folículo piloso, glándulas suríparas y adipocitos",
     },
     {
-      original: getImagePath("./images/IMG_8300.jpeg"),
-      thumbnail: getImagePath("./images/thumbnails/IMG_8300.jpeg"),
-      title: "?",
-      description: "",
-    },
-    {
-      original: getImagePath("./images/IMG_2587.jpeg"),
-      thumbnail: getImagePath("./images/thumbnails/IMG_2587.jpeg"),
-      title: "1",
-      description: "",
-    },
-    {
-      original: getImagePath("./images/IMG_2589.jpeg"),
-      thumbnail: getImagePath("./images/thumbnails/IMG_2589.jpeg"),
-      title: "2",
-      description: "",
-    },
-    {
       original: getImagePath("./images/IMG_2601.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2601.jpeg"),
       title: "Nervio Óptico",
@@ -317,38 +299,39 @@ const App = () => {
     {
       original: getImagePath("./images/IMG_2742.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2742.jpeg"),
-      title: "",
-      description: "",
+      title: "Bazo",
+      description: "Centros germinales.",
     },
     {
       original: getImagePath("./images/IMG_2746.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2746.jpeg"),
-      title: "25",
-      description: "",
+      title: "Bazo",
+      description: "Centros germinales.",
     },
     {
       original: getImagePath("./images/IMG_2748.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2748.jpeg"),
-      title: "26",
-      description: "",
+      title: "Epidídimo",
+      description:
+        "Revestido de un epitelio cilíndrico pseudoestratificado con estereocilios.",
     },
     {
       original: getImagePath("./images/IMG_2750.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2750.jpeg"),
-      title: "27",
-      description: "",
+      title: "Testículo",
+      description: "Presencia de túnica albugínea y túbulos seminíferos.",
     },
     {
       original: getImagePath("./images/IMG_2751.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2751.jpeg"),
-      title: "28",
-      description: "",
+      title: "Testículo",
+      description: "Presencia de túbulos seminíferos.",
     },
     {
       original: getImagePath("./images/IMG_2753.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2753.jpeg"),
-      title: "29",
-      description: "",
+      title: "Testículo",
+      description: "Presencia de túnica albugínea y túbulos seminíferos.",
     },
     {
       original: getImagePath("./images/IMG_2830.jpeg"),
@@ -464,20 +447,23 @@ const App = () => {
     {
       original: getImagePath("./images/IMG_2914.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2914.jpeg"),
-      title: "48",
-      description: "",
+      title: "Epidídimo",
+      description:
+        "Revestido de un epitelio cilíndrico pseudoestratificado con estereocilios.",
     },
     {
       original: getImagePath("./images/IMG_2915.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2915.jpeg"),
-      title: "49",
-      description: "",
+      title: "Epidídimo",
+      description:
+        "Revestido de un epitelio cilíndrico pseudoestratificado con estereocilios.",
     },
     {
       original: getImagePath("./images/IMG_2916.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_2916.jpeg"),
-      title: "50",
-      description: "",
+      title: "Epidídimo",
+      description:
+        "Revestido de un epitelio cilíndrico pseudoestratificado con estereocilios.",
     },
     {
       original: getImagePath("./images/IMG_2965.jpeg"),
@@ -693,8 +679,9 @@ const App = () => {
     {
       original: getImagePath("./images/IMG_3820.jpeg"),
       thumbnail: getImagePath("./images/thumbnails/IMG_3820.jpeg"),
-      title: "82",
-      description: "",
+      title: "Esófago",
+      description:
+        "Epitelio plano estratificado. Muscosa, submucosa, muscular de la mucosa y adventicia.",
     },
     {
       original: getImagePath("./images/IMG_3821.jpeg"),
