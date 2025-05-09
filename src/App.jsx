@@ -31,14 +31,6 @@ const App = () => {
         "Epitelio plano estratificado. Tejido muscular estriado. Ausencia de criptas de Lieberkühn.",
     },
     {
-      original: "./images/IMG_2497.jpeg",
-      thumbnail: "./images/thumbnails/IMG_2497.jpeg",
-      title: "Estómago (Glándulas Pilóricas)",
-      description:
-        "Glándulas pilóricas con células mucosas predominantes. Secreción de mucosidad pilórica del estómago.",
-    },
-
-    {
       original: "./images/IMG_2499.jpeg",
       thumbnail: "./images/thumbnails/IMG_2499.jpeg",
       title: "Duodeno",
