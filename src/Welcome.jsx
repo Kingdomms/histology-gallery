@@ -18,16 +18,18 @@ const Welcome = ({ onEnterGallery }) => {
     <div className={`welcome-container ${theme}`}>
       <div className="welcome-content">
         <h1 className="welcome-title">
-          <span className="animate-text">Histology Gallery</span>
+          <span className="animate-text">Atlas de Histología</span>
         </h1>
         <h2 className="welcome-subtitle">
-          <span className="animate-text delay-1">By Luis Hazael Flores</span>
+          <span className="animate-text delay-1">
+            Por Luis Hazael Flores Ramírez
+          </span>
         </h2>
         <button
           className={`enter-button ${animationComplete ? "visible" : ""}`}
           onClick={onEnterGallery}
         >
-          Enter Gallery
+          Entrar a la Galería
         </button>
       </div>
       <style jsx="true">{`
